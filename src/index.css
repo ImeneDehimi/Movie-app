@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #010441;
+  color: #fff;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav input {
+  padding: 10px 15px;
+  width: 40vw;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a5a7dc;
+}
+nav input::placeholder {
+  color: #494453;
+}
+nav input:focus {
+  outline: none;
+}
+nav button {
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a5a7dc;
+  color: #494453;
+}
+nav button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #010441;
+  transition: 0.5s;
+}
+nav h1 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: fantasy;
+  margin-left: 20px;
+}
+#icon{
+margin-right: 50px;
+width: 35px;
+height: 35px;
+cursor: pointer;
+}
+.movie img {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, .6);
+}
+.movie img:hover{
+  transform: scale(1.1) ;
+  transition: 0.5s;
+}
+.movie {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  position: relative;
+}
+.movies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px;
+  margin: 20px;
+}
+.movie h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.movie p {
+  position: absolute;
+  color: white;
+  top: 5px;
+  right: 5px;
+}
+.empty{
+  margin: 20px;
+  margin-top: 30px;
+}
+.modal {
+  text-align: center;
+}
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.modal-form input{
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a5a7dc;
+}
+.modal-form input::placeholder {
+  color: #494453;
+}
+.modal-form input:focus {
+  outline: none;
+}
+.modal-form button {
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a5a7dc;
+  color: #494453;
+}
+.modal-form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #010441;
+  transition: 0.5s;
+}
+.modal h2{
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
