@@ -35,6 +35,7 @@ import "boxicons";
 // export default App
 import Modal from "react-modal";
 import PlusMovie from "./PlusMovie";
+import { Link } from "react-router-dom";
 
 const customStyles = {
   content: {
@@ -150,7 +151,9 @@ const App = () => {
               <PlusMovie key={index} movie={movie} />
             ))}
             {movies.map((movie) => (
-              <Movie key={movie.imdbID} movie={movie} />
+              <Link to={`/movie/${movie.imdbID}`} key={movie.imdbID}>
+              <Movie movie={movie} />
+              </Link>
             ))}
           </div>
         </div>

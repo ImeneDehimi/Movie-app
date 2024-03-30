@@ -6,11 +6,16 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import MovieCard from './components/MovieCard.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+  },
+  {
+    path: "/movie/:id",
+    element: <MovieCard></MovieCard>,
   },
 ]);
 

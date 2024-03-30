@@ -1,0 +1,21 @@
+.movie-card{
+    display: flex;
+    align-items: center;
+    background-color: #010441;
+}
+.card{
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+.movie-card img{
+    width: 150px;
+}
+.movie-pic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card p ,.card h3{
+    padding-top: 15px;
+}

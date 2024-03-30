@@ -59,6 +59,7 @@ cursor: pointer;
   width: 200px;
   border-radius: 5px;
   box-shadow: -5px 5px 15px rgba(0, 0, 0, .6);
+  cursor: pointer;
 }
 .movie img:hover{
   transform: scale(1.1) ;
@@ -90,6 +91,11 @@ cursor: pointer;
   font-size: 18px;
   font-weight: 500;
   margin-top: 15px;
+  cursor: pointer;
+}
+.movies a{
+  text-decoration: none;
+  color: #fff;
 }
 .movie p {
   position: absolute;
